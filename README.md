@@ -1,4 +1,6 @@
 # 🚀 Orbi's Outpost: Junior Mission Control
+
+**▶ Play now: https://orbioutpost.page.gd** (free, no account, works on phones, tablets and computers)
 *Base do Orbi: Controle de Missão Júnior* · NASA Space Apps Challenge 2026: "Build a Junior Astronaut Mission Trainer"
 
 A free browser game for kids aged **7–12**. You run a base at the **Moon's south pole** or in **Mars' Jezero Crater**, and every day you split a small power budget between oxygen, a radiation shield, a greenhouse, science, repairs and calls to Earth. The solar storms are **real events from NASA's DONKI database**. Radiation is measured against **real ISS detector data (NASA OSDR RadLab)**. When a mission fails, you get a friendly debrief that explains why. No account, no download, works offline, in **English and Portuguese**.
@@ -74,4 +76,4 @@ Deploying to InfinityFree: see [DEPLOY.md](DEPLOY.md).
 - **Scores and classroom results live in `localStorage` only.** There is no server, so this is privacy-friendly for schools.
 
 ## License
-Code: MIT. NASA data and images: public domain (credit given). CSA content: quoted briefly with credit and links.
+Code: MIT (see [LICENSE](LICENSE)). Fonts: SIL Open Font License 1.1 (`fonts/OFL-*.txt`). NASA data and images: public domain (credit given). CSA content: quoted briefly with credit and links.
