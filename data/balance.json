@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "powerPerBlock": 10,
+  "maxBlocksPerDay": 6,
+  "start": { "power": 70, "oxygen": 80, "shield": 40, "food": 70, "condition": 90, "dust": 0.05 },
+  "crew": { "oxygenPerDay": 12, "foodPerDay": 8 },
+  "actions": {
+    "lifeSupport": { "max": 3, "oxygen": 14 },
+    "shield":      { "max": 3, "shield": 15 },
+    "greenhouse":  { "max": 2, "food": 13, "oxygen": 3 },
+    "science":     { "max": 3, "points": 10, "oxygen": 2, "wear": 2, "evaDose": 0.25 },
+    "comms":       { "max": 1 },
+    "maintenance": { "max": 2, "condition": 22, "clean": 0.35 }
+  },
+  "passive": { "shieldDecay": 3, "conditionWear": 5, "dustPerDay": 0.02, "blackoutOxygenLoss": 15 },
+  "sites": {
+    "moon": { "solarPeak": 50, "minSun": 0.6, "lunarPeriod": 29.5, "baseDraw": 6, "coldDraw": 5, "coldBelowSun": 0.75, "panelDustChance": 0.08, "dustStormChance": 0, "commDelayDays": 0, "lightSeconds": [1.3, 1.3] },
+    "mars": { "solarPeak": 46, "baseDraw": 7, "coldDraw": 3, "panelDustChance": 0.12, "dustStormChance": 0.06, "dustStormDays": [3, 5], "dustStormSun": 0.45, "commDelayDays": 1, "lightSeconds": [180, 1344] }
+  },
+  "condition": { "efficiencyBelow": 50, "glitchBase": 0.03, "glitchPerMissing": 0.006, "glitchPower": 12, "glitchOxygen": 10 },
+  "earth": { "messageDelayChance": 0.15, "forecastBoostDays": 2 },
+  "radiation": {
+    "_calibration": "1 dose unit = 1 'ISS-day' = mean daily absorbed dose measured by ISS DOSTEL1 (RadLab, Columbus module). background = site absorbed dose rate / ISS DOSTEL rate.",
+    "issRate_uGy_per_h": 12.238,
+    "siteRate_uGy_per_h": { "moon": 13.2, "mars": 8.75 },
+    "background": { "moon": 1.08, "mars": 0.71 },
+    "minProtection": 0.3,
+    "maxProtection": 0.85,
+    "stormDosePerSeverity": 8,
+    "siteStormFactor": { "moon": 1.0, "mars": 0.7 },
+    "severity": { "flrPerDecade": 1.5, "cmeV0": 500, "cmeDv": 600, "sepBase": 3, "sepXBonus": 1, "sepMBonus": 0.5, "min": 0.5, "max": 5 },
+    "shieldDamagePerSeverity": 6
+  },
+  "difficulty": {
+    "cadet":     { "days": 10, "storms": 2, "forecastLead": 2, "commsLeadBonus": 1, "marsForecastPenalty": 0, "severityRange": 0, "doseLimit": 35, "foodCanEnd": false, "hungerDamage": 18, "scienceNeedsTransmit": false, "simEventScale": 0.5, "greenhouseToggle": true, "commStyle": "friendly", "scoreMultiplier": 1 },
+    "explorer":  { "days": 20, "storms": 4, "forecastLead": 2, "commsLeadBonus": 1, "marsForecastPenalty": 1, "severityRange": 0, "doseLimit": 50, "foodCanEnd": true, "hungerDamage": 0, "scienceNeedsTransmit": true, "simEventScale": 1, "greenhouseToggle": false, "commStyle": "simple", "scoreMultiplier": 1.5 },
+    "commander": { "days": 30, "storms": 7, "forecastLead": 1, "commsLeadBonus": 1, "marsForecastPenalty": 1, "severityRange": 1, "doseLimit": 55, "foodCanEnd": true, "hungerDamage": 0, "scienceNeedsTransmit": true, "simEventScale": 1.4, "greenhouseToggle": false, "commStyle": "full", "scoreMultiplier": 2 }
+  },
+  "score": { "perDay": 10, "perHealth": 2, "winBonus": 100 },
+  "badges": { "scienceStar": 120, "energySaverMin": 20, "greenThumbMin": 30, "goodListenerCalls": 4, "mechanicMin": 40, "stormSurvivorHealth": 70 }
+}

@@ -1,0 +1,109 @@
+{
+ "retrieved": "2026-11-14",
+ "credit": "Canadian Space Agency (CSA)",
+ "toolkit": {
+  "title": "Toolkit for educators and youth – Food production on the Moon and in remote areas",
+  "url": "https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/food-production/",
+  "url_fr": "https://www.asc-csa.gc.ca/fra/jeunes-educateurs/trousses/production-alimentaire/"
+ },
+ "facts": [
+  {
+   "id": "csa_resupply",
+   "en": "Astronauts on the ISS get fresh food shipped up every few months. Far away on the Moon or Mars, deliveries will be rare, or even impossible!",
+   "pt": "Os astronautas da ISS recebem comida fresca a cada poucos meses. Longe, na Lua ou em Marte, as entregas serão raras, ou até impossíveis!",
+   "quote": "Greater distances will make resupply trips less frequent or impossible.",
+   "check": "resupply trips less frequent",
+   "url": "https://www.asc-csa.gc.ca/eng/sciences/food-production/growing-healthy-food-in-space-and-remote-areas.asp",
+   "verified": true
+  },
+  {
+   "id": "csa_happy",
+   "en": "Fresh food adds variety and nutrition, which keep crews healthy AND happy.",
+   "pt": "Comida fresca traz variedade e nutrientes, que deixam a tripulação saudável E feliz.",
+   "quote": "important factors in keeping crewmembers healthy and happy",
+   "check": "healthy and happy",
+   "url": "https://www.asc-csa.gc.ca/eng/sciences/food-production/growing-healthy-food-in-space-and-remote-areas.asp",
+   "verified": true
+  },
+  {
+   "id": "csa_green_thumb",
+   "en": "Space travellers going far will need ‘green thumbs’ to grow their own food.",
+   "pt": "Quem viajar para longe no espaço vai precisar ter ‘mão boa’ para plantar a própria comida.",
+   "quote": "will need to develop \"green thumbs\" to grow their own food in space",
+   "check": "green thumbs",
+   "url": "https://www.asc-csa.gc.ca/eng/sciences/food-production/growing-healthy-food-in-space-and-remote-areas.asp",
+   "verified": true
+  },
+  {
+   "id": "csa_compact",
+   "en": "Space food must be small and light, but also nutritious and tasty!",
+   "pt": "Comida espacial precisa ser pequena e leve, mas também nutritiva e gostosa!",
+   "quote": "Space food must be compact and lightweight, as well as nutritious and tasty!",
+   "check": "compact and lightweight",
+   "url": "https://www.asc-csa.gc.ca/eng/sciences/food-production/growing-healthy-food-in-space-and-remote-areas.asp",
+   "verified": true
+  },
+  {
+   "id": "csa_inputs",
+   "en": "The Deep Space Food Challenge looked for food systems that need very few inputs: materials, energy and water. That is why your greenhouse costs power!",
+   "pt": "O Desafio de Comida para o Espaço Profundo buscou sistemas que gastem pouquíssimos recursos: materiais, energia e água. Por isso sua estufa gasta energia!",
+   "quote": "require minimal inputs (materials, energy, water, etc.)",
+   "check": "minimal inputs",
+   "url": "https://www.asc-csa.gc.ca/eng/sciences/food-production/deep-space-food-challenge.asp",
+   "verified": true
+  },
+  {
+   "id": "csa_grow",
+   "en": "Crews on long missions will likely have to produce food in space to meet their nutrition needs.",
+   "pt": "Tripulações em missões longas provavelmente vão ter que produzir comida no espaço para se alimentar bem.",
+   "quote": "Crews will likely have to produce food in space to meet their nutritional needs.",
+   "check": "produce food in space",
+   "url": "https://www.asc-csa.gc.ca/eng/sciences/food-production/deep-space-food-challenge.asp",
+   "verified": true
+  },
+  {
+   "id": "csa_cangrow",
+   "en": "The winning CANGrow system could grow over 700 kg of healthy food per year!",
+   "pt": "O sistema vencedor CANGrow pode produzir mais de 700 kg de comida saudável por ano!",
+   "quote": "the potential to generate over 700 kg of nutrient-dense food annually",
+   "check": "700 kg",
+   "url": "https://www.asc-csa.gc.ca/eng/sciences/food-production/deep-space-food-challenge.asp",
+   "verified": true
+  },
+  {
+   "id": "csa_moon_farm",
+   "en": "Canada is preparing advanced food production systems for the surface of the Moon, to feed the astronauts of the future.",
+   "pt": "O Canadá está preparando sistemas avançados de produção de comida para a superfície da Lua, para alimentar os astronautas do futuro.",
+   "quote": "advanced food production systems on the surface of the Moon",
+   "check": "food production systems on the surface of the Moon",
+   "url": "https://www.asc-csa.gc.ca/eng/sciences/food-production/growing-healthy-food-in-space-and-remote-areas.asp",
+   "verified": true
+  }
+ ],
+ "classroom": [
+  {
+   "title": "Interplanetary Farming (activity)",
+   "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/fitness-and-nutrition/interplanetary-farming.asp"
+  },
+  {
+   "title": "Master Chef: Mars (activity)",
+   "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/fitness-and-nutrition/master-chef-mars.asp"
+  },
+  {
+   "title": "Healthy Meals in Microgravity (activity)",
+   "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/fitness-and-nutrition/healthy-meals-in-microgravity.asp"
+  },
+  {
+   "title": "Tomatosphere",
+   "url": "https://www.asc-csa.gc.ca/eng/youth-educators/tomatosphere.asp"
+  },
+  {
+   "title": "CSA Toolkits for educators and youth",
+   "url": "https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/"
+  },
+  {
+   "title": "CSA Youth and educators (STEM hub)",
+   "url": "https://www.asc-csa.gc.ca/eng/youth-educators/"
+  }
+ ]
+}

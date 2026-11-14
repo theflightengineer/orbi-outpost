@@ -1,0 +1,146 @@
+{
+ "retrieved": "2026-11-14",
+ "api": "https://osdr.nasa.gov/osdr/data/search",
+ "terms": [
+  "bone density",
+  "muscle",
+  "sleep",
+  "immune system",
+  "radiation",
+  "plant growth"
+ ],
+ "facts": [
+  {
+   "id": "OSD-417",
+   "topic": "bone",
+   "en": "Mice that lived on the space station lost some bone strength, and the tiny microbes in their tummies changed too. Scientists think gut bugs and bones are connected!",
+   "pt": "Camundongos que viveram na estação espacial perderam um pouco da força dos ossos, e os micróbios da barriga deles mudaram também. Os cientistas acham que os micróbios e os ossos estão ligados!",
+   "title": "Specific Host Metabolite and Gut Microbiome Alterations Are Associated with Bone-loss During Spaceflight",
+   "publication": "Specific host metabolite and gut microbiome alterations are associated with bone loss during spaceflight",
+   "organism": "Mus musculus     Microbiota",
+   "mission": "SpaceX-11",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-417",
+   "foundBy": "OSDR search: \"bone density\""
+  },
+  {
+   "id": "OSD-342",
+   "topic": "muscle",
+   "en": "In 33 days on the space station, normal mice lost muscle and bone. Blocking a body signal called myostatin helped protect them. That is a clue for keeping astronauts strong.",
+   "pt": "Em 33 dias na estação espacial, camundongos comuns perderam músculo e osso. Bloquear um sinal do corpo chamado miostatina ajudou a protegê-los. É uma pista para manter astronautas fortes.",
+   "title": "Targeting myostatin/activin A protects against skeletal muscle and bone loss during spaceflight [plasma proteomics]",
+   "publication": "Targeting myostatin/activin A protects against skeletal muscle and bone loss during spaceflight",
+   "organism": "Mus musculus",
+   "mission": "SpaceX-19",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-342",
+   "foundBy": "OSDR search: \"muscle\""
+  },
+  {
+   "id": "OSD-946",
+   "topic": "muscle",
+   "en": "In a NASA study, volunteers stayed in bed for 70 days (like floating in space). Those who exercised kept much more muscle, strength and fitness. That's why astronauts work out every day!",
+   "pt": "Num estudo da NASA, voluntários ficaram 70 dias deitados (parecido com flutuar no espaço). Quem fez exercícios manteve muito mais músculo, força e fôlego. Por isso astronautas se exercitam todo dia!",
+   "title": "Exercise Training Attenuates the Muscle Mitochondria Genomic Response to Bed Rest (miRNA microarray data)",
+   "publication": "Exercise Training Attenuates the Muscle Mitochondria Genomic Response to Bed Rest",
+   "organism": "Homo sapiens",
+   "mission": null,
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-946",
+   "foundBy": "OSDR search: \"muscle\""
+  },
+  {
+   "id": "OSD-937",
+   "topic": "muscle",
+   "en": "Tiny lab-grown muscles flown to the space station squeezed more weakly in microgravity, a bit like muscles getting older faster.",
+   "pt": "Músculos minúsculos feitos em laboratório e levados à estação espacial se contraíram com menos força na microgravidade, um pouco como músculos envelhecendo mais rápido.",
+   "title": "Microgravity accelerates skeletal muscle degeneration: Functional and transcriptomic insights from an ISS muscle lab-on-chip model",
+   "publication": "Microgravity accelerates skeletal muscle degeneration: Functional and transcriptomic insights from an ISS muscle lab-on-chip model.",
+   "organism": "Homo sapiens",
+   "mission": "SpaceX-25",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-937",
+   "foundBy": "OSDR search: \"muscle\""
+  },
+  {
+   "id": "OSD-32",
+   "topic": "body",
+   "en": "Without gravity, body fluids float up toward the head. Scientists studied how this ‘fluid shift’ changes the genes in the brain.",
+   "pt": "Sem gravidade, os líquidos do corpo sobem para a cabeça. Cientistas estudaram como essa ‘mudança dos líquidos’ altera os genes do cérebro.",
+   "title": "Effect of microgravity on brain gene expression in mice",
+   "publication": "Effect of microgravity on gene expression in mouse brain.",
+   "organism": "Mus musculus",
+   "mission": null,
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-32",
+   "foundBy": "OSDR search: \"sleep\""
+  },
+  {
+   "id": "OSD-903",
+   "topic": "immune",
+   "en": "Blood from two astronauts showed their immune system genes changed right after spaceflight, then went back to normal about three months later.",
+   "pt": "O sangue de dois astronautas mostrou que os genes do sistema imune mudaram logo depois do voo espacial e voltaram ao normal uns três meses depois.",
+   "title": "Longitudinal transcriptomic and epigenetic analysis in astronauts reveals dynamic immune response to spaceflight [RNA-seq]",
+   "publication": "Longitudinal transcriptomic and epigenetic analysis of the blood in two astronauts.",
+   "organism": "Homo sapiens",
+   "mission": "AX-1",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-903",
+   "foundBy": "OSDR search: \"immune system\""
+  },
+  {
+   "id": "OSD-689",
+   "topic": "immune",
+   "en": "Microgravity can make immune cells, the body's defenders, work less well. Scientists compared lab tests with data from real space missions.",
+   "pt": "A microgravidade pode fazer as células de defesa do corpo trabalharem pior. Cientistas compararam testes de laboratório com dados de missões espaciais reais.",
+   "title": "Single-cell analysis identifies conserved features of immune dysfunction in simulated microgravity and spaceflight",
+   "publication": "Single-cell analysis identifies conserved features of immune dysfunction in simulated microgravity and spaceflight",
+   "organism": "Homo sapiens",
+   "mission": null,
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-689",
+   "foundBy": "OSDR search: \"immune system\""
+  },
+  {
+   "id": "OSD-269",
+   "topic": "food",
+   "en": "Astronauts grew red romaine lettuce in the Veggie garden on the space station, and scientists checked it was safe and healthy to eat compared with lettuce grown on Earth.",
+   "pt": "Astronautas plantaram alface romana roxa na horta Veggie da estação espacial, e cientistas confirmaram que ela era segura e saudável, comparando com alface plantada na Terra.",
+   "title": "Microbiological and nutritional analysis of lettuce crops grown on the International Space Station-VEG03A",
+   "publication": "Microbiological and nutritional analysis of lettuce crops grown on the International Space Station     Plant Pillow Preparation for the Veggie Plant Growth System on the International Space Station",
+   "organism": "Microbiota",
+   "mission": "SpaceX-8",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-269",
+   "foundBy": "OSDR search: \"plant growth\""
+  },
+  {
+   "id": "OSD-772",
+   "topic": "food",
+   "en": "Chile peppers were grown on the space station! NASA wants crews to add fresh vegetables to their packaged food.",
+   "pt": "Pimentas foram plantadas na estação espacial! A NASA quer que as tripulações tenham verduras frescas além da comida embalada.",
+   "title": "PH-04 Chile Peppers in Space",
+   "publication": null,
+   "organism": "Microbiota",
+   "mission": "SpaceX-22",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-772",
+   "foundBy": "OSDR search: \"plant growth\""
+  },
+  {
+   "id": "OSD-992",
+   "topic": "radiation",
+   "en": "Space radiation is made of super-fast particles that can damage cells. In the lab, human cells hit by space-like radiation aged faster. That's why shields matter!",
+   "pt": "A radiação espacial é feita de partículas super-rápidas que podem danificar células. No laboratório, células humanas atingidas por radiação parecida com a do espaço envelheceram mais rápido. Por isso o escudo é importante!",
+   "title": "Space radiation induces distinct senescent phenotypes: Implications for space travel [scRNA-Seq]",
+   "publication": "Space radiation induces distinct senescent phenotypes: Implications for space travel.",
+   "organism": "Homo sapiens",
+   "mission": null,
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-992",
+   "foundBy": "OSDR search: \"radiation\""
+  },
+  {
+   "id": "OSD-546",
+   "topic": "bone",
+   "en": "Astronauts can lose bone in space. On the space station, scientists watched stem cells try to turn into bone-building cells to understand why.",
+   "pt": "Astronautas podem perder osso no espaço. Na estação espacial, cientistas observaram células-tronco virando células que constroem osso, para entender o porquê.",
+   "title": "SCD – Stem Cell Differentiation Toward Osteoblast Onboard the International Space Station",
+   "publication": "SCD – Stem Cell Differentiation Toward Osteoblast Onboard the International Space Station",
+   "organism": "Homo sapiens",
+   "mission": "Soyuz TMA-16M  Soyuz TMA-15M",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-546",
+   "foundBy": "OSDR search: \"bone density\""
+  }
+ ]
+}

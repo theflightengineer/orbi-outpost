@@ -1,0 +1,304 @@
+{
+ "retrieved": "2026-11-14",
+ "moon": {
+  "name": {
+   "en": "Moon, South Pole (Artemis region)",
+   "pt": "Lua, Polo Sul (região Artemis)"
+  },
+  "facts": [
+   {
+    "id": "moon_temp",
+    "en": "Temperatures on the Moon go from hotter than 121 °C in sunlight to colder than -246 °C in shadowed polar craters.",
+    "pt": "Na Lua a temperatura vai de mais de 121 °C ao sol até menos de -246 °C nas crateras sempre à sombra perto dos polos.",
+    "quote": "Surface temperatures on the Moon range from higher than 250°F to lower than -410°F.",
+    "check": "lower than -410",
+    "url": "https://science.nasa.gov/moon/weather-on-the-moon/",
+    "source": "NASA Science: Weather on the Moon",
+    "verified": true
+   },
+   {
+    "id": "moon_day",
+    "en": "A full Moon day (sunrise to sunrise) lasts about 29.5 Earth days, so a long night can last around two weeks.",
+    "pt": "Um dia completo na Lua (de nascer do Sol a nascer do Sol) dura cerca de 29,5 dias da Terra, então uma noite pode durar umas duas semanas.",
+    "quote": "29.5 days to change from new moon to new moon",
+    "check": "29.5 days",
+    "url": "https://science.nasa.gov/moon/top-moon-questions/",
+    "source": "NASA Science: Top Moon Questions",
+    "derived": "‘about two weeks of night’ = half of 29.5 days (our arithmetic).",
+    "verified": true
+   },
+   {
+    "id": "moon_sun_low",
+    "en": "At the south pole the Sun stays very low (never more than about 7° above the horizon), so shadows are long and solar panels must point sideways.",
+    "pt": "No polo sul o Sol fica muito baixo (nunca mais de uns 7° acima do horizonte), então as sombras são longas e os painéis solares ficam de lado.",
+    "quote": "sun elevation in sky is never higher than about 7°",
+    "check": "7",
+    "url": "https://ntrs.nasa.gov/api/citations/20230006101/downloads/PowerPoint%20Presentation.pdf",
+    "source": "NASA Technical Reports Server: lunar south pole lighting presentation (2023)",
+    "verified": true
+   },
+   {
+    "id": "moon_no_shield",
+    "en": "The Moon has hardly any air and no global magnetic field, so nothing blocks space radiation. Your base must make its own shield.",
+    "pt": "A Lua quase não tem ar nem campo magnético global, então nada bloqueia a radiação do espaço. A base precisa do seu próprio escudo.",
+    "quote": "The Moon has hardly any atmosphere and no global magnetic field to shield it from space radiation.",
+    "check": "no global magnetic field",
+    "url": "https://science.nasa.gov/moon/weather-on-the-moon/",
+    "source": "NASA Science: Weather on the Moon",
+    "verified": true
+   },
+   {
+    "id": "moon_dust",
+    "en": "The ground is covered in charcoal-gray powdery dust that sticks to everything, even solar panels.",
+    "pt": "O chão é coberto por uma poeira cinza-escura bem fininha que gruda em tudo, até nos painéis solares.",
+    "quote": "covered by a rubble pile of charcoal-gray, powdery dust",
+    "check": "powdery dust",
+    "url": "https://science.nasa.gov/moon/facts/",
+    "source": "NASA Science: Moon Facts",
+    "verified": true
+   },
+   {
+    "id": "moon_delay",
+    "en": "The Moon is about 384,400 km away, so a radio message takes about 1.3 seconds each way. Earth can help you almost right away!",
+    "pt": "A Lua fica a cerca de 384.400 km, então uma mensagem de rádio leva uns 1,3 segundo para chegar. A Terra pode ajudar quase na hora!",
+    "quote": "The Moon is an average of 238,855 miles (384,400 kilometers) away.",
+    "check": "384,400",
+    "url": "https://science.nasa.gov/moon/facts/",
+    "source": "NASA Science: Moon Facts",
+    "derived": "1.3 s = 384,400 km ÷ 299,792 km/s (our arithmetic).",
+    "verified": true
+   },
+   {
+    "id": "moon_radiation",
+    "en": "A lander on the Moon measured about 13 microgray of radiation every hour. That is a bit more than inside the space station, and there is no air or magnetic field to stop solar storms.",
+    "pt": "Uma sonda na Lua mediu cerca de 13 micrograys de radiação por hora. É um pouco mais que dentro da estação espacial, e lá não há ar nem campo magnético para segurar as tempestades solares.",
+    "quote": "We measured an average total absorbed dose rate in silicon of 13.2 ± 1 μGy/hour",
+    "check": "",
+    "url": "https://www.science.org/doi/10.1126/sciadv.aaz1334",
+    "source": "Zhang et al. 2020, Science Advances, PMID 32978156 (Chang'e-4 LND; peer-reviewed, not a NASA dataset). Abstract checked via Europe PMC API.",
+    "absorbedDoseRate_uGy_per_h": 13.2,
+    "noVerify": true,
+    "verified": null
+   }
+  ]
+ },
+ "mars": {
+  "name": {
+   "en": "Mars, Jezero Crater",
+   "pt": "Marte, Cratera Jezero"
+  },
+  "facts": [
+   {
+    "id": "mars_temp",
+    "en": "Mars can be as warm as 20 °C at noon or as cold as -153 °C. Jezero nights are freezing, so heaters need power.",
+    "pt": "Marte pode chegar a 20 °C ao meio-dia ou -153 °C. As noites em Jezero são geladas, então os aquecedores gastam energia.",
+    "quote": "as high as 70 degrees Fahrenheit (20 degrees Celsius) or as low as about -225 degrees Fahrenheit (-153 degrees Celsius)",
+    "check": "-153 degrees Celsius",
+    "url": "https://science.nasa.gov/mars/facts/",
+    "source": "NASA Science: Mars Facts",
+    "verified": true
+   },
+   {
+    "id": "mars_sol",
+    "en": "A day on Mars is called a sol. It lasts about 24.6 hours, a bit longer than an Earth day.",
+    "pt": "Um dia em Marte se chama sol. Ele dura cerca de 24,6 horas, um pouco mais que um dia na Terra.",
+    "quote": "it completes one rotation every 24.6 hours, which is very similar to one day on Earth (23.9 hours)",
+    "check": "24.6 hours",
+    "url": "https://science.nasa.gov/mars/facts/",
+    "source": "NASA Science: Mars Facts",
+    "verified": true
+   },
+   {
+    "id": "mars_air",
+    "en": "Mars has a thin atmosphere, mostly carbon dioxide. It blocks a little radiation, but you cannot breathe it, so oxygen must be made in the base.",
+    "pt": "Marte tem uma atmosfera fina, quase toda de gás carbônico. Ela bloqueia um pouco de radiação, mas não dá para respirar, então o oxigênio é feito na base.",
+    "quote": "Mars has a thin atmosphere made up mostly of carbon dioxide, nitrogen, and argon gases.",
+    "check": "thin atmosphere",
+    "url": "https://science.nasa.gov/mars/facts/",
+    "source": "NASA Science: Mars Facts",
+    "verified": true
+   },
+   {
+    "id": "mars_dust",
+    "en": "Martian winds can make dust storms that cover much of the planet. In 2018 one storm turned day into night for the solar-powered rover Opportunity.",
+    "pt": "Os ventos de Marte formam tempestades de poeira que cobrem boa parte do planeta. Em 2018 uma delas transformou o dia em noite para o robô solar Opportunity.",
+    "quote": "Occasionally, winds on Mars are strong enough to create dust storms that cover much of the planet.",
+    "check": "dust storms",
+    "url": "https://science.nasa.gov/mars/facts/",
+    "source": "NASA Science: Mars Facts (Opportunity 2018 storm: NASA/JPL, reported by NPR 13 Jun 2018)",
+    "verified": true
+   },
+   {
+    "id": "mars_delay",
+    "en": "Radio messages between Earth and Mars take from about 3 to about 22 minutes one way, depending on where the planets are. Earth cannot answer right away!",
+    "pt": "Mensagens de rádio entre a Terra e Marte levam de uns 3 a uns 22 minutos para ir, dependendo de onde os planetas estão. A Terra não responde na hora!",
+    "quote": "about 3 minutes light time … or about 22.4 minutes, depending on the planets’ position in their orbits",
+    "check": "22.4 minutes",
+    "url": "https://science.nasa.gov/mars/mars-relay-network-update/",
+    "source": "NASA Science: Mars Relay Network",
+    "verified": true
+   },
+   {
+    "id": "mars_jezero",
+    "en": "Jezero Crater is 45 km wide. More than 3.5 billion years ago it held a lake with a river delta. That makes it a great place to look for signs of ancient life.",
+    "pt": "A cratera Jezero tem 45 km de largura. Há mais de 3,5 bilhões de anos ela tinha um lago com um delta de rio. Por isso é um ótimo lugar para procurar sinais de vida antiga.",
+    "quote": "Jezero Crater is 28 miles (45 kilometers) wide",
+    "check": "45 kilometers",
+    "url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+    "source": "NASA Science: Mars 2020 Perseverance",
+    "verified": true
+   },
+   {
+    "id": "mars_radiation",
+    "en": "NASA's Curiosity rover measured about 0.21 milligray of radiation per day on Mars. That is a bit less than on the Moon, because the thin air and the planet itself block some.",
+    "pt": "O robô Curiosity da NASA mediu cerca de 0,21 miligray de radiação por dia em Marte. É um pouco menos que na Lua, porque o ar fino e o próprio planeta bloqueiam parte.",
+    "quote": "average absorbed dose rate 0.21 ± 0.04 mGy/day (dose equivalent ≈ 0.64 mSv/day), Curiosity RAD, ~300 sols",
+    "check": "",
+    "url": "https://www.science.org/doi/10.1126/science.1244797",
+    "source": "Hassler et al. 2014, Science, PMID 24324275 (Curiosity RAD). Number is from the paper's results, not its abstract (see data/MISSING.md).",
+    "absorbedDoseRate_uGy_per_h": 8.75,
+    "noVerify": true,
+    "verified": null
+   }
+  ]
+ },
+ "marsWeather": {
+  "meda": {
+   "label": "Perseverance MEDA (Jezero)",
+   "url": "https://mars.nasa.gov/rss/api/?feed=weather&category=mars2020&feedtype=json",
+   "solsReturned": 7,
+   "solsWithTemps": 4,
+   "minTemp": -79.3,
+   "maxTemp": -17,
+   "latest": {
+    "sol": "1127",
+    "date": "2024-04-21",
+    "min": null,
+    "max": null,
+    "sunrise": "06:13:15",
+    "sunset": "17:11:36",
+    "pressure": null
+   },
+   "sample": [
+    {
+     "sol": "1130",
+     "date": "2024-04-24",
+     "min": -77.3,
+     "max": -23.2,
+     "sunrise": "06:15:41",
+     "sunset": "17:12:41",
+     "pressure": 777.1
+    },
+    {
+     "sol": "1131",
+     "date": "2024-04-25",
+     "min": -79.2,
+     "max": -17,
+     "sunrise": "06:16:29",
+     "sunset": "17:13:03",
+     "pressure": 774.9
+    },
+    {
+     "sol": "1132",
+     "date": "2024-04-26",
+     "min": -77.9,
+     "max": -23.4,
+     "sunrise": "06:17:18",
+     "sunset": "17:13:27",
+     "pressure": 774.1
+    },
+    {
+     "sol": "1133",
+     "date": "2024-04-27",
+     "min": -79.3,
+     "max": -24.7,
+     "sunrise": "06:18:07",
+     "sunset": "17:13:51",
+     "pressure": 778.9
+    }
+   ]
+  },
+  "rems": {
+   "label": "Curiosity REMS (Gale)",
+   "url": "https://mars.nasa.gov/rss/api/?feed=weather&category=msl&feedtype=json",
+   "solsReturned": 4745,
+   "solsWithTemps": 4717,
+   "minTemp": -100,
+   "maxTemp": 11,
+   "latest": {
+    "sol": "4995",
+    "date": "2026-08-25",
+    "min": -71,
+    "max": -5,
+    "sunrise": "06:46",
+    "sunset": "18:51",
+    "pressure": 777
+   },
+   "sample": [
+    {
+     "sol": "4995",
+     "date": "2026-08-25",
+     "min": -71,
+     "max": -5,
+     "sunrise": "06:46",
+     "sunset": "18:51",
+     "pressure": 777
+    },
+    {
+     "sol": "4994",
+     "date": "2026-08-24",
+     "min": -70,
+     "max": -7,
+     "sunrise": "06:46",
+     "sunset": "18:52",
+     "pressure": 777
+    },
+    {
+     "sol": "4993",
+     "date": "2026-08-23",
+     "min": -70,
+     "max": -6,
+     "sunrise": "06:46",
+     "sunset": "18:52",
+     "pressure": 780
+    },
+    {
+     "sol": "4992",
+     "date": "2026-08-22",
+     "min": -69,
+     "max": -6,
+     "sunrise": "06:47",
+     "sunset": "18:52",
+     "pressure": 780
+    },
+    {
+     "sol": "4991",
+     "date": "2026-08-21",
+     "min": -69,
+     "max": -11,
+     "sunrise": "06:47",
+     "sunset": "18:52",
+     "pressure": 779
+    },
+    {
+     "sol": "4990",
+     "date": "2026-08-20",
+     "min": -72,
+     "max": -8,
+     "sunrise": "06:47",
+     "sunset": "18:52",
+     "pressure": 779
+    },
+    {
+     "sol": "4989",
+     "date": "2026-08-19",
+     "min": -72,
+     "max": -6,
+     "sunrise": "06:47",
+     "sunset": "18:53",
+     "pressure": 778
+    }
+   ]
+  }
+ }
+}

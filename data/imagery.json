@@ -1,0 +1,33 @@
+{
+ "retrieved": "2026-11-14",
+ "images": [
+  {
+   "key": "jezero",
+   "file": "img/jezero.jpg",
+   "bytes": 13218,
+   "title": "Dust Storm and Jezero Crater",
+   "nasaId": "PIA25068",
+   "center": "JPL",
+   "date": "2022-01-19T00:00:00Z",
+   "credit": "NASA/JPL-Caltech/MSSS",
+   "page": "https://images.nasa.gov/details/PIA25068",
+   "searchApi": "https://images-api.nasa.gov/search?q=Jezero%20crater&media_type=image"
+  },
+  {
+   "key": "moon_south_pole",
+   "file": "img/moon-south-pole.jpg",
+   "bytes": 19056,
+   "title": "Lunar South Pole - Out of the Shadows",
+   "nasaId": "PIA12905",
+   "center": "JPL",
+   "date": "2009-09-17T01:08:27Z",
+   "credit": "NASA/GSFC/Arizona State University",
+   "page": "https://images.nasa.gov/details/PIA12905",
+   "searchApi": "https://images-api.nasa.gov/search?q=lunar%20south%20pole&media_type=image"
+  }
+ ],
+ "notes": [
+  "NASA Mars Rover Photos API: unavailable on 2026-11-14 (HTTP 404)",
+  "Mars Trek web services: unavailable on 2026-11-14 (HTTP 404)"
+ ]
+}

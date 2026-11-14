@@ -1,0 +1,76 @@
+{
+ "retrieved": "2026-11-14",
+ "api": "https://visualization.osdr.nasa.gov/radlab/api/",
+ "unitAsReported": "absorbed_dose_rate (RadLab DOSTEL; µGy/h)",
+ "unitNote": "RadLab reports DOSTEL absorbed dose rate; we treat it as µGy per hour. Please double-check units in the RadLab data dictionary before quoting outside the game.",
+ "days": [
+  {
+   "date": "2022-03-01",
+   "instrument": "DosTel1",
+   "module": "Columbus",
+   "samples": 1203,
+   "meanRate": 12.34,
+   "plainMeanRate": 31.019,
+   "minRate": 1.496,
+   "maxRate": 661.168,
+   "url": "https://visualization.osdr.nasa.gov/radlab/api/?instrument_id=DosTel1&timestamp%3E=2022-03-01T00:00&timestamp%3C=2022-03-02T00:00&absorbed_dose_rate&module&format=tsv"
+  },
+  {
+   "date": "2022-03-02",
+   "instrument": "DosTel1",
+   "module": "Columbus",
+   "samples": 1210,
+   "meanRate": 13.181,
+   "plainMeanRate": 33.896,
+   "minRate": 1.321,
+   "maxRate": 636.818,
+   "url": "https://visualization.osdr.nasa.gov/radlab/api/?instrument_id=DosTel1&timestamp%3E=2022-03-02T00:00&timestamp%3C=2022-03-03T00:00&absorbed_dose_rate&module&format=tsv"
+  },
+  {
+   "date": "2022-03-03",
+   "instrument": "DosTel1",
+   "module": "Columbus",
+   "samples": 1199,
+   "meanRate": 12.163,
+   "plainMeanRate": 30.308,
+   "minRate": 1.476,
+   "maxRate": 763.3,
+   "url": "https://visualization.osdr.nasa.gov/radlab/api/?instrument_id=DosTel1&timestamp%3E=2022-03-03T00:00&timestamp%3C=2022-03-04T00:00&absorbed_dose_rate&module&format=tsv"
+  },
+  {
+   "date": "2022-03-04",
+   "instrument": "DosTel1",
+   "module": "Columbus",
+   "samples": 1220,
+   "meanRate": 13.772,
+   "plainMeanRate": 35.751,
+   "minRate": 1.317,
+   "maxRate": 753.671,
+   "url": "https://visualization.osdr.nasa.gov/radlab/api/?instrument_id=DosTel1&timestamp%3E=2022-03-04T00:00&timestamp%3C=2022-03-05T00:00&absorbed_dose_rate&module&format=tsv"
+  },
+  {
+   "date": "2022-09-15",
+   "instrument": "DosTel1",
+   "module": "Columbus",
+   "samples": 916,
+   "meanRate": 11.606,
+   "plainMeanRate": 34.621,
+   "minRate": 1.184,
+   "maxRate": 742.569,
+   "url": "https://visualization.osdr.nasa.gov/radlab/api/?instrument_id=DosTel1&timestamp%3E=2022-09-15T00:00&timestamp%3C=2022-09-16T00:00&absorbed_dose_rate&module&format=tsv"
+  },
+  {
+   "date": "2022-12-15",
+   "instrument": "DosTel1",
+   "module": "Columbus",
+   "samples": 907,
+   "meanRate": 10.365,
+   "plainMeanRate": 29.641,
+   "minRate": 1.434,
+   "maxRate": 630.555,
+   "url": "https://visualization.osdr.nasa.gov/radlab/api/?instrument_id=DosTel1&timestamp%3E=2022-12-15T00:00&timestamp%3C=2022-12-16T00:00&absorbed_dose_rate&module&format=tsv"
+  }
+ ],
+ "meanRatePerHour": 12.238,
+ "meanDailyDose_uGy": 293.7
+}

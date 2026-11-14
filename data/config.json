@@ -1,0 +1,4 @@
+{
+  "liveDonki": false,
+  "_help": "Set liveDonki to true ONLY if you uploaded api/donki.php and created api/private/config.php with your NASA API key. The game works perfectly with false."
+}
