@@ -1,0 +1,6 @@
+node_modules/
+tools/cache/
+api/private/config.php
+api/cache/*.json
+shots/
+.env
