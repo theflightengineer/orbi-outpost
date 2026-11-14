@@ -75,5 +75,12 @@ Deploying to InfinityFree: see [DEPLOY.md](DEPLOY.md).
 - `color-mix()` CSS is used for soft tints. Very old browsers (Safari < 16.2) just show plain backgrounds, and the game still works.
 - **Scores and classroom results live in `localStorage` only.** There is no server, so this is privacy-friendly for schools.
 
+## Use of AI
+AI tools (Claude and Claude Code by Anthropic) were used to help write the code, the SVG artwork, the documentation and the presentation. The author, Lucca Martins, directed the project: chose the challenge and the idea, planned the game and its requirements (audience, mechanics, levels, real NASA and CSA data sources, accessibility, languages, offline play), guided and reviewed every design and feature decision, played and tested each version on computer and phone, and published the game on InfinityFree and the code on GitHub.
+
+- **No facts were made up by AI:** every fact, space weather event and radiation measurement comes from a real NASA or CSA source, linked in the game. Gameplay numbers were tuned for fun and are documented in [docs/mechanics.md](docs/mechanics.md).
+- **No AI image generators were used:** the photos are public-domain NASA images, and the artwork is SVG drawn in code.
+- **The AI's work was checked, not just accepted:** 37 automated tests check the game rules, the data and the deploy, and a browser check covers accessibility, contrast and phone layout. Anyone can run them (see [Tests](#tests)).
+
 ## License
 Code: MIT (see [LICENSE](LICENSE)). Fonts: SIL Open Font License 1.1 (`fonts/OFL-*.txt`). NASA data and images: public domain (credit given). CSA content: quoted briefly with credit and links.
