@@ -1,0 +1,14 @@
+{
+  "name": "junior-astronaut-trainer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Orbi's Outpost, a browser game for kids 7–12 about running a Moon or Mars base with real NASA data. No build step.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/engine.test.mjs tests/balance.test.mjs tests/data.test.mjs tests/deploy.test.mjs",
+    "fetch-data": "node tools/fetch-data.mjs",
+    "balance": "node tools/balance-report.mjs",
+    "serve": "node tools/serve.mjs"
+  },
+  "license": "MIT"
+}
