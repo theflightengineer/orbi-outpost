@@ -18,7 +18,7 @@ A free browser game for kids aged **7–12**. You run a base at the **Moon's sou
 4. Press **End day** and read the report. **REAL** and **SIMULATED** events are clearly tagged.
 5. Survive every day. If oxygen or food runs out, or the radiation dose passes the limit, the **Mission Debrief** shows what happened, a timeline chart, what NASA really does, a real OSDR science fact, and **Try again with a hint**.
 
-Other modes: **Tutorial** (1 minute with Orbi), **Today's mission** (newest real DONKI event in the archive, or live via the optional PHP proxy), **Daily challenge** (same mission for everyone today), **share a mission code** with friends, and **Classroom mode** (one code for the whole class, a results table, discussion questions and CSA/NASA teacher links).
+Other modes: **Tutorial** (1 minute with Orbi), **Today's mission** (the newest real solar storm from the last 30 days, fetched live from NASA DONKI through a small PHP proxy with a 1-hour cache; if that fails or you are offline, it uses the newest archived event and says so), **Daily challenge** (same mission for everyone today), **share a mission code** with friends, and **Classroom mode** (one code for the whole class, a results table, discussion questions and CSA/NASA teacher links).
 
 Accessibility: read-aloud (browser speech), high contrast, reduced motion, bigger text, keyboard play, large touch targets. Sound effects are generated with WebAudio.
 
@@ -56,7 +56,7 @@ fonts/                        self-hosted Lilita One + Atkinson Hyperlegible (WO
 js/engine/                    pure, deterministic simulation (no DOM), tested in Node
 data/                         archived real data + balance.json (all tuning numbers) + config.json
 i18n/en.json, i18n/pt.json    every UI string
-api/donki.php                 OPTIONAL live DONKI proxy (off by default)
+api/donki.php                 live DONKI proxy for Today's mission (on at the live site; the key lives only on the server)
 sw.js, manifest.webmanifest   offline PWA
 tools/                        fetch-data, balance report, trace, local server, smoke test (dev only)
 tests/                        node:test suites

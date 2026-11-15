@@ -39,7 +39,7 @@ HTTPS is needed for the offline mode (service worker) and the share/copy button.
 The game works perfectly without this. It only adds a "LIVE" newest event.
 1. Upload the `api/` folder (with `donki.php`, `private/.htaccess`, `private/config.sample.php`, `cache/.htaccess`).
 2. In FileZilla, right-click `htdocs/api/private/config.sample.php`, then **Copy** / **Rename** it to `config.php`, and edit it **on the server**. Set `'ENABLED' => true` and `'NASA_API_KEY' => 'your key from api.nasa.gov'`. The `.htaccess` in that folder blocks web access, so the key is never public. Never put the key in JavaScript.
-3. Edit `htdocs/data/config.json` and set `"liveDonki": true`.
+3. Check that `htdocs/data/config.json` has `"liveDonki": true` (the repo ships with true; without `config.php` the proxy just answers "archived" and the game uses the archive).
 4. Test: open `https://yourname.rf.gd/api/donki.php`. You should see JSON with `"source":"live"` (or `"archived"` and a reason if something failed; the game then quietly uses the archive). Responses are cached for 1 hour in `api/cache/` to respect InfinityFree's limits.
    - Note: InfinityFree's anti-bot cookie can block calls from other sites, but the game calls its own domain, so it works after the first page load. If `donki.php` reports `live fetch failed`, the free plan may be blocking outgoing requests. Just leave `liveDonki` false.
 
