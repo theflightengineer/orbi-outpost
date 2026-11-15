@@ -1,4 +1,4 @@
 {
-  "liveDonki": false,
-  "_help": "Set liveDonki to true ONLY if you uploaded api/donki.php and created api/private/config.php with your NASA API key. The game works perfectly with false."
+  "liveDonki": true,
+  "_help": "With true, Today's mission asks api/donki.php for the newest DONKI event. It only comes back LIVE if api/private/config.php (server only, never in the repo) holds a NASA API key; otherwise the game quietly uses the archived data. Set false to skip the request entirely."
 }
