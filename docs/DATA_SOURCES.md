@@ -18,7 +18,7 @@ Everything was downloaded **once** by `tools/fetch-data.mjs` on **2026-11-14** a
 - **NASA Mars Rover Photos API**: HTTP 404, appears retired. Replaced by the NASA Image Library image above.
 - **Mars Trek web services**: HTTP 404. The game only links to trek.nasa.gov.
 - **APOD API**: returned a generic placeholder instead of the requested entries. Only a link is shown.
-- **To verify manually**: the Mars 0.21 mGy/day figure (paper body, not abstract) and the RadLab unit (assumed µGy/h).
+- **Checked by hand (2026-11-15):** the Mars 0.210 ± 0.040 mGy/day figure (in the body of Hassler et al., not the abstract) and the RadLab unit (µGy/hour, per the RadLab knowledge base: https://visualization.osdr.nasa.gov/radlab/kb/absorbed_dose_rate).
 - The OSDR "sleep" search returned no study directly about astronaut sleep, so OSD-32 (brain / fluid shift) is used instead.
 
 ## Real vs simulated in the game
