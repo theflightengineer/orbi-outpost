@@ -22,7 +22,7 @@ Orbi's Outpost is a free, no-login browser game for kids aged 7–12. Players ru
 - **Clear attribution in the app:** every storm card shows "Real event: date, source: NASA DONKI" with a link. Simulated events are tagged "SIMULATED". A Data & Credits page lists everything. The footer reads "archived on (date)" and "NASA does not endorse this project."
 - **Plain language for kids:** short sentences, an in-context glossary, mascot tips, read-aloud, and big friendly gauges (3 core gauges + food + health).
 - **Browser-playable, no account:** static HTML/CSS/JS, PWA offline, 258 KB total.
-- **Replayability:** seeded RNG, shareable mission codes, daily challenge, Today's mission (newest real event), 2 sites × 3 levels, badges and local high scores.
+- **Replayability:** seeded RNG, shareable mission codes, daily challenge, Today's mission (the newest real storm from the last 30 days, fetched live from DONKI), 2 sites × 3 levels, badges and local high scores.
 - **Failure that teaches:** Mission Debrief with a cause → effect chain, timeline chart, what NASA does, an OSDR fact, a dose comparison, and "Try again with a hint".
 - **Accessibility:** keyboard-operable buttons, ARIA meters, high contrast, reduced motion, bigger text, read-aloud, touch targets ≥ 44 px.
 - **Explained data use:** `docs/DATA_SOURCES.md` and `docs/mechanics.md`, including honest simplifications.

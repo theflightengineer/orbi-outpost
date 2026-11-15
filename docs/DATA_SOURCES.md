@@ -1,6 +1,6 @@
 # Data sources (judge summary)
 
-Everything was downloaded **once** by `tools/fetch-data.mjs` on **2026-11-14** and shipped as static JSON in `/data`. The game makes **no network calls at runtime** (verified with a headless browser: 0 external requests). The UI says "Real NASA data from DONKI, archived on 14 November 2026". Nothing is called "live" unless the optional PHP proxy really fetched it.
+Everything was downloaded **once** by `tools/fetch-data.mjs` on **2026-11-14** and shipped as static JSON in `/data`. The browser never calls an outside server (verified with a headless browser: 0 external requests). The UI says "Real NASA data from DONKI, archived on 14 November 2026". The one live part is **Today's mission**: it asks the site's own PHP proxy (`api/donki.php`), which fetches the newest DONKI event of the last 30 days from api.nasa.gov (CCMC as backup) and caches it for 1 hour. It is tagged **LIVE** with the fetch time only when that really worked; otherwise the game uses the newest archived event, tagged **ARCHIVED**. The API key stays on the server.
 
 > **NASA does not endorse this project.** The Canadian Space Agency (CSA) does not endorse it either. NASA data is public domain; CSA material is credited and linked, not copied wholesale.
 

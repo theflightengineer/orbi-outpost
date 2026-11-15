@@ -8,7 +8,7 @@ js/engine/*.js        PURE simulation (no DOM): rng, events, sim, debrief analys
 js/ui/*.js            DOM/SVG/canvas UI, i18n, audio (WebAudio), speech, storage
 data/*.json           archived real NASA/CSA data + balance.json (all tuning numbers)
 i18n/en.json, pt.json all UI strings
-api/donki.php         OPTIONAL live DONKI proxy (off by default)
+api/donki.php         live DONKI proxy for Today's mission (falls back to the archive)
 tools/fetch-data.mjs  one-time downloader (Node 18+), writes /data
 tests/*.test.mjs      node:test engine + balance tests
 sw.js + manifest      offline PWA
